@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    /* position: relative; */
+    background-image: url(./bgimg.jpg);
+    margin: 0px;
+}
+.icon{
+    border-radius: 50%;
+
+}
+.navBar{
+    
+    position: sticky;
+background-color: #CE7777;
+padding: 10px;
+height: 35px;
+
+border-bottom: 5px solid rgb(213, 216, 20);
+/* display: inline; */
+}
+.leftbtn{
+    border-radius: 30px;
+    border-left: 2px solid gray;
+    height: 35px;
+    width: 100px;
+    font-size: 18px;
+}
+.leftbtn:hover{
+    background-color: yellowgreen;
+}
+.inputsearch{
+    /* text-align: ; */
+    padding-left: 10px;
+    height: 35px;
+    width: 400px;
+    border-radius: 100px; 
+    font-size: 20px;
+    padding-bottom: 5px;
+    background-color: rgb(220, 220, 226);
+}
+
+/* .inputsearch::placeholder {
+	padding-left: 5px;
+} */
+
+.search{
+    height: 35px;
+    border-radius: 20px; 
+    font-size: 20px;
+    padding-bottom: 5px;
+    background: rgb(26, 61, 175);
+    transform: scale(1.09s);
+
+}
+.search:hover{
+    background-color: aqua;
+}
+.rightbtn{
+    float: right;
+    margin: 2px;
+    height: 35px;
+    border-radius: 20px; 
+    width: 100px;
+    font-size: 18px;
+}
+.rightbtn:hover{
+    background-color: yellowgreen;
+}
+
+.middle{
+ padding: 150px;
+ padding-left: 500px; 
+
+}
