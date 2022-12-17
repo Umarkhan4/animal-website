@@ -1,0 +1,27 @@
+.logoImage {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 50%;
+    border-radius: 50%;
+    z-index: 1;
+    
+  }
+  
+  .card {
+    margin: 50px 90px 0px 90px;
+    width: 250px;
+    box-shadow: 13px 14px 9px rgb(157, 168, 159);
+  
+
+  }
+  .card-img-top{
+    width: 250px;
+    height: 250px;
+  }
+  .dogsContainer {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  

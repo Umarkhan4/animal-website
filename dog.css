@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  background-image: url(./bgimg.jpg);
+  margin: 0px;
+}
+.navBar {
+  position: sticky;
+  background-color: #ce7777;
+  padding: 10px;
+  height: 65px;
+
+  border-bottom: 5px solid rgb(213, 216, 20);
+  /* display: inline; */
+}
+.leftbtn {
+  border-radius: 30px;
+  border-left: 2px solid gray;
+  height: 35px;
+  width: inherit;
+  font-size: 18px;
+}
+.leftbtn:hover {
+  background-color: yellowgreen;
+}
+
+.rightbtn {
+  float: right;
+  margin: 2px;
+  height: 35px;
+  border-radius: 20px;
+  width: 100px;
+  font-size: 18px;
+}
+.rightbtn:hover {
+  background-color: yellowgreen;
+}
+
+.logoImage {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 50%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.card {
+  margin: 20px 90px 0px 90px;
+  width: 250px;
+}
+.dogsContainer {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.btn {
+  background-image: linear-gradient(rgb(33, 38, 112),rgb(150, 49, 119));
+}
